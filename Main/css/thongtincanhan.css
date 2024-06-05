@@ -1,0 +1,71 @@
+.Personal_Info{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+    width: 100vw;
+}
+
+
+.box{
+    width: max-content;
+    height: max-content;
+    padding: 20px 20px 20px 20px;
+    background: transparent;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+label{
+    font-size: 20px;
+}
+
+.output{
+    border: none;
+    width: max-content;
+    background: transparent;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.btn_ds{
+    width: 400px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: aqua;
+    transition: 0.3s ease-in;
+    margin-bottom: 10px;
+}
+
+.btn_ds:hover{
+    background-color: rgb(248, 0, 74);
+    cursor: pointer;
+}
+
+.btn{
+    width: 400px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: aqua;
+    transition: 0.3s ease-in;
+    margin-bottom: 10px;
+}
+
+.btn:hover{
+    background-color: rgb(27, 122, 247);
+    cursor: pointer;
+}

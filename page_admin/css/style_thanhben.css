@@ -1,0 +1,42 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper{
+    float: left;
+    list-style-type: none;
+    width: 300px;
+    height: 100vh;
+    background-color: #092B40;
+    color: white;
+    font-size: 25px;
+    position: fixed;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.info{
+    font-size: 60px;
+    padding: 20px 0 0 20px;
+}
+
+.box{
+    float: left;
+    width: 300px;
+}
+
+#wrpper{
+    float: left;
+    margin-left: 300px;
+    width: 600px;
+    height: 3000px;
+    border: 1px solid red;
+}

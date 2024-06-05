@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-image:url('https://khoinguonsangtao.vn/wp-content/uploads/2022/10/hinh-anh-may-bay-vietnam-airlines.jpg');
+    background-size: cover; 
+    background-position: center;
+  }
+  
+  #wrapper {
+    width: 400px;
+    background-color: #fceadf;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .title h2 {   
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+  }
+  
+  .input label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .input input, .input button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+  }
+  
+  .input i {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #8e8989;
+  }
+  
+  .btn {
+    background-color: #5be506; 
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+  }
+  
+  .btn:hover {
+    background-color: #45A049;
+  }
+  
+  @media (max-width: 768px) {
+    #wrapper {
+      width: 90%;
+    }
+  }

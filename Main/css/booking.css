@@ -1,0 +1,86 @@
+.wrapper{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 90vh; 
+}
+
+.box{
+    width: max-content;
+    height: max-content;
+    padding: 20px 20px 20px 20px;
+    background: transparent;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+}
+
+.input{
+    width: 490px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.btn_design{
+    width: 500px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: aqua;
+    transition: 0.3s ease-in;
+}
+
+.btn_design:hover{
+    background-color: rgb(27, 122, 247);
+    cursor: pointer;
+}
+
+.info_flight{
+    width: max-content;
+    height: max-content;
+    padding: 20px 20px 20px 20px;
+    background: transparent;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+h2{
+    padding-left: 40px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.cancel{
+    width: 400px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: aqua;
+    transition: 0.3s ease-in;
+}
+
+.cancel:hover{
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+}
